@@ -80,14 +80,16 @@ Splash screen akan muncul di layar pembukan setiap pennguna jika ingin mengopera
 
 ![WhatsApp Image 2021-03-19 at 20 30 59 (4)](https://user-images.githubusercontent.com/60412314/111791260-a1550200-88f5-11eb-9355-c41cb5645cba.jpeg)
 
-4. Halaman utama dengan Intent
+3. Halaman utama dengan Intent
 Terdapat tampilan halamn utama, didalamnnya ada 2 button. 
 - Button pertama digunakan untuk perpindahan halaman utama menuju halaman fragment.
 - Button kedua digunkan untuk perpindahan halaman utama menuju halaman detail data diri seseorang.
 (perpindahan tersebut menggunkaan Intent).
-![Screenshot_20210320_002121](https://user-images.githubusercontent.com/60412314/111821007-c016c100-8914-11eb-9c04-f1682db06dde.jpg)
 
-3. Button pertama menuju = Fragment Awal Aplikasi
+
+![WhatsApp Image 2021-03-20 at 00 21 43](https://user-images.githubusercontent.com/60412314/111824807-3d443500-8919-11eb-8a33-ceaa7d95e2b8.jpeg)
+
+4. Button pertama menuju = Fragment Awal Aplikasi
 - Fragment Pertama : Menampilkan from identitas yang bisa diisi oleh user
 
 ![WhatsApp Image 2021-03-19 at 20 30 59 (9)](https://user-images.githubusercontent.com/60412314/111792181-96e73800-88f6-11eb-81e4-14fea112a64b.jpeg)
@@ -96,7 +98,7 @@ Terdapat tampilan halamn utama, didalamnnya ada 2 button.
 
 ![WhatsApp Image 2021-03-19 at 20 30 59 (10)](https://user-images.githubusercontent.com/60412314/111792182-977fce80-88f6-11eb-853d-fc1367d323a1.jpeg)
 
-4. Fragment yang telah diisi
+5. Fragment yang telah diisi
 - First Fragment = Tab1
 
 ![WhatsApp Image 2021-03-19 at 20 30 59 (11)](https://user-images.githubusercontent.com/60412314/111792204-9d75af80-88f6-11eb-8dc5-7549d518bae9.jpeg)
@@ -107,10 +109,10 @@ Terdapat tampilan halamn utama, didalamnnya ada 2 button.
  
  (Data dari from di fragment pertama(tab1) yang telah diisi akan dibawa ke fragment kedua(tab2)).
  
- 5. Button kedua menuju = detail data diri seseorang
- 6. 
- ![Screenshot_20210320_002959](https://user-images.githubusercontent.com/60412314/111820998-bdb46700-8914-11eb-8917-184bcd803aa9.jpg)
+ 6. Button kedua menuju = detail data diri seseorang
  
+ ![WhatsApp Image 2021-03-20 at 00 30 10](https://user-images.githubusercontent.com/60412314/111824814-3e756200-8919-11eb-916e-25465e9907b6.jpeg)
+
  # Terimakasih :)
  
  
