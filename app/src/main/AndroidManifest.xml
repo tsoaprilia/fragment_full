@@ -16,8 +16,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActivityWelcome"></activity>
+        <activity android:name=".HalammanUtama">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".MainActivity"></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity2" />
     </application>
 
 </manifest>
