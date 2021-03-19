@@ -4,27 +4,43 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Window;
+import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashScreen extends AppCompatActivity {
 
+    private static int splashInterval = 2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.splashscreen);
 
-        final Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
+        new Handler().postDelayed(new Runnable() {
+
 
             @Override
             public void run() {
-                startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                finish();
+                // TODO Auto-generated method stub
+                Intent i = new Intent(SplashScreen.this, ActivityWelcome.class);
+                startActivity(i);
+
+
+                //jeda selesai Splashscreen
+                this.finish();
             }
-        }, 3000L); //3000 L = 3 detik
+
+            private void finish() {
+                // TODO Auto-generated method stub
+
+            }
+        }, splashInterval);
+
     }
+
 }
