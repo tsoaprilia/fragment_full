@@ -112,6 +112,11 @@ Terdapat tampilan halamn utama, didalamnnya ada 2 button.
  6. Button kedua menuju = detail data diri seseorang
  
  ![WhatsApp Image 2021-03-20 at 00 30 10](https://user-images.githubusercontent.com/60412314/111824814-3e756200-8919-11eb-916e-25465e9907b6.jpeg)
+ 
+ 
+ ## Jalannya Aplikasi
+ 
+![WhatsApp-Video-2021-03-20-at-11 07 11](https://user-images.githubusercontent.com/60412314/111858924-511a8600-896f-11eb-8f94-8e7214f2fe87.gif)
 
  # Terimakasih :)
  
